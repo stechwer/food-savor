@@ -1,0 +1,52 @@
+.main-title{
+    font-family:$main-title-font-family;
+    font-weight:$main-title-font-weight;
+    font-size:$main-title-font-size;
+    line-height:$main-title-line-height;
+    color:$main-title-color;
+}
+.main-text{
+    font-family:$main-text-font-family;
+    font-weight:$main-text-font-weight;
+    font-size:$main-text-font-size;
+    line-height:$main-text-line-height;
+    color:$main-text-color;
+}
+.title{
+    font-family:$title-font-family;
+    font-weight:$title-font-weight;
+    font-size:$title-font-size;
+    line-height:$title-line-height;
+    color:$title-color;
+}
+.intro{
+    font-family:$intro-font-family;
+    font-weight:$intro-font-weight;
+    font-size:$intro-font-size;
+    line-height:$intro-line-height;
+    color:$intro-color;
+}
+.info{
+    font-family:$info-font-family;
+    font-weight:$info-font-weight;
+    font-size:$info-font-size;
+    line-height:$info-line-height;
+    color:$info-color;
+}
+.text{
+    font-family:$text-font-family;
+    font-weight:$text-font-weight;
+    font-size:$text-font-size;
+    line-height:$text-line-height;
+    color:$text-color;
+}
+.button{
+    color:$button-color;
+    font-family:$button-font-family;
+    font-weight:$button-font-weight;
+    line-height:$button-line-height;
+    font-size:$button-font-size;
+    padding:$button-padding;
+    border-radius:$button-radius;
+    background-color:$button-background-color;
+}

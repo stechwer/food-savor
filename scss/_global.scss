@@ -1,0 +1,18 @@
+*,
+::after,
+::before{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+ul{
+    padding: 0;
+}
