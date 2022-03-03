@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 a{
+    display:inline-block;
     text-decoration: none;
 }
 li{
@@ -15,4 +16,9 @@ img{
 }
 ul{
     padding: 0;
+}
+body{
+    color:$main-color;
+    font-family:$main-font-family;
+    background-color:$main-background-color;
 }

@@ -1,6 +1,57 @@
 @import 'reset';
-@import 'global';
 @import 'vars';
 @import 'class';
 @import 'mixin';
+@import 'global';
 @import 'fonts';
+
+.header{
+    &-top{
+        padding-top:35px;
+        @include flex;
+    }
+    &-menu{
+        background-color:$navigation-background-color;
+        border-radius: $navigation-border-radius;
+        padding:24px 26px;
+        display: flex;
+        &__list{
+            padding:0px 32px;
+        }
+        &__link{
+            color:$navigation-color;
+            font-family:$navigation-font-family;
+            font-size:$navigation-font-size;
+            line-height:$navigation-line-height;
+            font-weight:$navigation-font-weight;
+            padding-bottom: 2px;
+            &:hover{
+                border-bottom:1px solid #FFFFFF;
+            }
+        }
+        &__list+&__list{
+            border-left: 3px solid #FFFFFF;
+        }
+    }
+    &-inner{
+        padding:117px 0px 60px;
+        @include flex;
+    }
+    &-content{
+        &__title{
+            max-width: 577px;
+            margin-bottom: 30px;
+        }
+        &__span{
+           color:#7EB685;
+        }
+        &__text{
+            max-width: 571px;
+            margin-bottom: 41px;
+        }
+        &-btn{
+            margin-bottom: 26px;
+        }
+    }
+
+}
